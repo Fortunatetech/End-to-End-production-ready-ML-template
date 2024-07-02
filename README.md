@@ -1,6 +1,4 @@
-# End-to-End-production-ready-template
-
-# End-to-End MLOps Project Template
+# End-to-End-production-ready-ML-Project-template
 
 This repository is a template for developing and deploying machine learning models in a production-ready environment. It follows MLOps best practices to ensure scalability, reproducibility, and maintainability.
 
@@ -110,9 +108,6 @@ This repository is a template for developing and deploying machine learning mode
 - **Description**: Guidelines for contributing to the project.
 - **Contents**: Instructions for reporting issues, submitting pull requests, and coding standards.
 
-### CHANGELOG.md
-- **Description**: Log of changes made to the project over time.
-- **Contents**: Document changes, updates, and version history.
 
 ## Getting Started
 
@@ -126,10 +121,12 @@ This repository is a template for developing and deploying machine learning mode
     ./init_setup.sh
 
 3. Install the dependencies:
-        pip install -r requirements.txt
+        ```sh
+         pip install -r requirements.txt
 
 4. Run the tests: 
-    tox
+     ```sh
+     tox
 
 ## Acknowledgments
 - Inspired by various MLOps and DevOps best practices.
